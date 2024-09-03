@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Colspan & Rowspan</title>
+
+        <style>
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+
+            th, td {
+                background-color: #c1c1c1;
+                padding: 20px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Colspan & Rowspan</h1>
+        <table>
+            <tr>
+                <th colspan="2">Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Karloina</td>
+                <td>Smith</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>Sophia</td>
+                <td>Karlbarg</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Kavin</td>
+                <td>Poul</td>
+                <td>22</td>
+            </tr>
+        </table>
+        <br>
+        <table>
+            <tr>
+                <th>Name</th>
+                <td>Jill</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Phone</th>
+                <td>045355456</td>
+            </tr>
+            <tr>
+                <td>545757858</td>
+            </tr>
+        </table>
+    </body>
+</html>
